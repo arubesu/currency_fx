@@ -1,6 +1,17 @@
 # currency_fx
 
-A new Flutter project.
+A new Flutter project to learn api integration. 
+
+## GET API Key 
+
+Get your api key on https://hgbrasil.com/status/finance
+
+change main.dart file 
+
+```dart
+const apiKey = "{your api key here}";
+const api = "https://api.hgbrasil.com/finance?format=json&key=$apiKey";
+```
 
 ## Getting Started
 
